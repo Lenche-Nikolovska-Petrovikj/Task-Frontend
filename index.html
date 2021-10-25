@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <a href="index.html" class="navbar-brand"
+          >valtech
+          <div>-</div></a
+        >
+        <ul>
+          <li><a href="#section-one" class="nav-link">Section one</a></li>
+          <li><a href="#section-two" class="nav-link">Section two</a></li>
+          <li><a href="#section-three" class="nav-link">Section three</a></li>
+        </ul>
+
+        <div class="navbar-toggler">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="section-one">
+        <div class="section-text"><h3>Section one</h3></div>
+        <div class="container">
+          <div class="content">
+            <button onclick="sendEmailDefault()" class="btn">contact</button>
+            <p>Lorem ipsum dolor sit amet,consectetur</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="section-two">
+        <div class="section-text"><h3>Section two</h3></div>
+        <div class="teasers">
+          <div class="card">
+            <div class="img pic1"></div>
+            <div class="text">
+              <h4>Teaser title</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nunc
+                enim ligula, auctor rhoncus massa non, congue dignissim sapien.
+                Vestibulum ante ipusum primis in faucibus orci luctus et
+                ultrices posuere cubilla curae
+              </p>
+              <button class="button">Read more</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="img pic2"></div>
+            <div class="text">
+              <h4>Teaser title</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <button class="button">Read more</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="img pic3"></div>
+            <div class="text">
+              <h4>Teaser title</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nunc
+                enim ligula, auctor rhoncus massa non, congue dignissim sapien.
+              </p>
+              <button class="button">Read more</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="img pic4"></div>
+            <div class="text">
+              <h4>Teaser title</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nunc
+                enim ligula, auctor rhoncus massa non, congue dignissim sapien.
+                Vestibulum ante ipusum primis in faucibus orci luctus et
+                ultrices posuere cubilla curae
+              </p>
+              <button class="button">Read more</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="section-three">
+        <div class="section-text"><h3>Section three</h3></div>
+        <div class="content-overlay">
+          <h5>contact us</h5>
+          <div class="contactUs">
+            <form>
+              <div class="container">
+                <div class="input-container">
+                  <label for="fname">First name</label>
+                  <input type="text" id="fname" name="fname" />
+                </div>
+                <div class="input-container">
+                  <label for="lname">Last name</label>
+                  <input type="text" id="lname" name="lname" />
+                </div>
+              </div>
+
+              <div class="container">
+                <div class="input-container">
+                  <label for="email">Email address</label>
+                  <input type="email" id="email" name="email" required />
+                </div>
+                <div class="input-container">
+                  <label for="phone">Phone number</label>
+                  <input type="number" id="phone" name="phone" required />
+                </div>
+              </div>
+
+              <div class="container">
+                <div class="input-container">
+                  <label for="message">Your message</label>
+                  <textarea
+                    id="message"
+                    cols="22"
+                    rows="5"
+                    name="message"
+                  ></textarea>
+                </div>
+                <div class="input-container">
+                  <input type="submit" value="send" />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <h3>
+          valtech
+          <div>-</div>
+        </h3>
+        <div clas="footer-title">
+          <h6>Footer Section Title</h6>
+          <ul>
+            <li><a href="#">Footer link</a></li>
+            <li><a href="#">Footer link</a></li>
+            <li><a href="#">Footer link</a></li>
+            <li><a href="#">Footer link</a></li>
+          </ul>
+        </div>
+        <div clas="footer-title">
+          <h6>Footer Section Title</h6>
+          <ul>
+            <li><a href="#">Footer link</a></li>
+            <li><a href="#">Footer link</a></li>
+            <li><a href="#">Footer link</a></li>
+            <li><a href="#">Footer link</a></li>
+          </ul>
+        </div>
+        <div clas="footer-title">
+          <h6>Footer Section Title</h6>
+          <ul>
+            <li><a href="#">Footer link</a></li>
+            <li><a href="#">Footer link</a></li>
+            <li><a href="#">Footer link</a></li>
+            <li><a href="#">Footer link</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
